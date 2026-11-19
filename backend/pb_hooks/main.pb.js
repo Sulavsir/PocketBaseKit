@@ -2,8 +2,8 @@ const { registerTaskRoutes } = require(`${__hooks}/routes/task.routes.js`);
 
 const { registerAuthRoutes } = require(`${__hooks}/routes/auth.routes.js`);
 
-// const { registerTaskCrons } = require(`${__hooks}/crons/task.cron.js`);
+const { registerTaskCrons } = require(`${__hooks}/crons/task.cron.js`);
 
-// registerTaskCrons();
+registerTaskCrons();
 registerTaskRoutes();
 registerAuthRoutes();
